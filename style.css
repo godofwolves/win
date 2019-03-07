@@ -1,0 +1,41 @@
+body {
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	display: flex;
+	background-color: green;
+}
+.db{
+	display: block;
+}
+
+.a1 {
+height: 100%;
+width: calc(100%/3);
+
+}
+.a2 {
+	height: 50%;
+	width: 100%;
+	
+}
+.content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.size {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+
+h1 {
+	color: blue;
+	text-transform: uppercase;
+	font-size: 35px
+	
+	
+}
